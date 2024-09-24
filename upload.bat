@@ -1,5 +1,7 @@
 @echo off
-cd E:\shop\china\image
+echo 正在上传文件到GitHub…
 git add .
-git commit -m “Upload files”
-git push -u origin main
+git commit -m “更新文件”
+git push
+echo 上传完成！
+pause
